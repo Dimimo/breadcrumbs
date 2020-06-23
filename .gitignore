@@ -1,6 +1,7 @@
 # PHP packages
 /composer.lock
 /vendor/
+/.idea/
 
 # Test output
 /.phpunit.result.cache
