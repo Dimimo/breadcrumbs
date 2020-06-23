@@ -1,0 +1,12 @@
+# PHP packages
+/composer.lock
+/vendor/
+
+# Test output
+/.phpunit.result.cache
+/build/
+/test-coverage/
+/tests/storage/
+
+# Operating system files
+.DS_Store
