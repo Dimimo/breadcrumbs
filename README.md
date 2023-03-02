@@ -1,10 +1,6 @@
 Getting Started
 --------------------------------------------------------------------------------
 
-***Note:** If you are using an older version, click it in the table above to see the documentation for that version.*
-
-***Note 2:** If you think this documentation can be improved in any way, please [edit this file](https://github.com/dimimo/breadcrumbs/edit/master/README.md) and make a pull request.*
-
 ### 1. Install Laravel Breadcrumbs
 
 Run this at the command line:
