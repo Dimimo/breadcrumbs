@@ -19,7 +19,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "facade/ignition-contracts": "^1.0",
-        "laravel/framework": "^9.0|^10.0"
+        "laravel/support": "^9.0|^10.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
