@@ -10,6 +10,7 @@ return [
     | Choose a view to display when Breadcrumbs::render() is called.
     | Built in templates are:
     |
+    | - `breadcrumbs::tailwind`    – Tailwind
     | - 'breadcrumbs::bootstrap4'  - Bootstrap 4
     | - 'breadcrumbs::bootstrap3'  - Bootstrap 3
     | - 'breadcrumbs::bootstrap2'  - Bootstrap 2
@@ -23,7 +24,7 @@ return [
     |
     */
 
-    'view' => 'breadcrumbs::bootstrap4',
+    'view' => 'breadcrumbs::tailwind',
 
     /*
     |--------------------------------------------------------------------------
