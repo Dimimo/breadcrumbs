@@ -1,6 +1,6 @@
 @if (count($breadcrumbs))
 
-    <ul class="flex items-center justify-center font-[sans-serif] mt-4">
+    <ul class="flex items-center justify-center font-[sans-serif] my-2">
         @foreach ($breadcrumbs as $breadcrumb)
             @if ($breadcrumb->url && !$loop->last)
 
@@ -15,7 +15,7 @@
                 </li>
             @else
 
-                <li class="text-gray-500 text-lg text-">
+                <li class="text-gray-500 text-lg font-bold">
                     {{ $breadcrumb->title }}
                 </li>
             @endif
