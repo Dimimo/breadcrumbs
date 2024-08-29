@@ -5,7 +5,7 @@
             @if ($breadcrumb->url && !$loop->last)
 
                 <li class="text-gray-500 text-lg cursor-pointer">
-                    <a href="{{ $breadcrumb->url }}">{{ $breadcrumb->title }}</a>
+                    <a href="{{ $breadcrumb->url }}" wire:navigate>{{ $breadcrumb->title }}</a>
                 </li>
                 <li>
                     <svg class="fill-gray-400 w-3 h-3 mx-3 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
